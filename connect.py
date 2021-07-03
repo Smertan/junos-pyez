@@ -3,7 +3,7 @@ from getpass import getpass
 import jnpr.junos.exception
 
 ipadd = input('Enter hostname or IP address: ')
-username = input('Enter usename: ')
+username = input('Enter username: ')
 password = getpass('Enter password: ')
 
 try:
