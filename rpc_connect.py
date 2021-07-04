@@ -16,8 +16,8 @@ try:
         print('*' * 70,
               "Operational checks".center(70),
               f"\n\nHost-name: {host_name}",
-              f"Version: {version}",
               f"Model: {model}",
-              "*" * 70, "\t",sep="\n")
+              f"Version: {version}",              
+              "*" * 70, sep="\n")
 except jnpr.junos.exception.ConnectAuthError as autherr:
     print('Check username and password', autherr)
