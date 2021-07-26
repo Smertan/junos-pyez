@@ -1,7 +1,6 @@
 from jnpr.junos import Device
 from getpass import getpass
 import jnpr.junos.exception
-from lxml import etree
 
 
 ipadd = input('Enter hostname or IP address: ')
